@@ -18,7 +18,7 @@ stuff.
 import UIKit
 import CleanroomLogger
 
-public class LogViewController: UIViewController {
+public class KungFuViewController: UIViewController {
     
     // MARK: - protocol UIContentContainer : NSObjectProtocol
     

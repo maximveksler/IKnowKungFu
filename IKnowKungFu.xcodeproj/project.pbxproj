@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043EBA8F1C7A6B2900F1E04B /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EBA8E1C7A6B2900F1E04B /* LogViewController.swift */; };
+		043EBA8F1C7A6B2900F1E04B /* KungFuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EBA8E1C7A6B2900F1E04B /* KungFuViewController.swift */; };
 		043EBA941C7A74D800F1E04B /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043EBA911C7A74D800F1E04B /* CleanroomASL.framework */; };
 		043EBA951C7A74D800F1E04B /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043EBA921C7A74D800F1E04B /* CleanroomASL.framework */; };
 		043EBA961C7A74D800F1E04B /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043EBA931C7A74D800F1E04B /* CleanroomLogger.framework */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		043EBA8E1C7A6B2900F1E04B /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		043EBA8E1C7A6B2900F1E04B /* KungFuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KungFuViewController.swift; sourceTree = "<group>"; };
 		043EBA911C7A74D800F1E04B /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = "Carthage/Checkouts/CleanroomASL/build/Debug-iphoneos/CleanroomASL.framework"; sourceTree = "<group>"; };
 		043EBA921C7A74D800F1E04B /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = "Carthage/Checkouts/CleanroomLogger/Libraries/CleanroomASL/build/Debug-iphoneos/CleanroomASL.framework"; sourceTree = "<group>"; };
 		043EBA931C7A74D800F1E04B /* CleanroomLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomLogger.framework; path = "Carthage/Checkouts/CleanroomLogger/build/Debug-iphoneos/CleanroomLogger.framework"; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			children = (
 				04CD3ED31C7A667A00265BB1 /* IKnowKungFu.h */,
 				04CD3ED51C7A667A00265BB1 /* Info.plist */,
-				043EBA8E1C7A6B2900F1E04B /* LogViewController.swift */,
+				043EBA8E1C7A6B2900F1E04B /* KungFuViewController.swift */,
 			);
 			path = IKnowKungFu;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043EBA8F1C7A6B2900F1E04B /* LogViewController.swift in Sources */,
+				043EBA8F1C7A6B2900F1E04B /* KungFuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
