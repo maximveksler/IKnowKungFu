@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		043EBA8F1C7A6B2900F1E04B /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EBA8E1C7A6B2900F1E04B /* LogViewController.swift */; };
+		043EBA941C7A74D800F1E04B /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043EBA911C7A74D800F1E04B /* CleanroomASL.framework */; };
+		043EBA951C7A74D800F1E04B /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043EBA921C7A74D800F1E04B /* CleanroomASL.framework */; };
+		043EBA961C7A74D800F1E04B /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043EBA931C7A74D800F1E04B /* CleanroomLogger.framework */; };
 		04CD3ED41C7A667A00265BB1 /* IKnowKungFu.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CD3ED31C7A667A00265BB1 /* IKnowKungFu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		043EBA8E1C7A6B2900F1E04B /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		043EBA911C7A74D800F1E04B /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = "Carthage/Checkouts/CleanroomASL/build/Debug-iphoneos/CleanroomASL.framework"; sourceTree = "<group>"; };
+		043EBA921C7A74D800F1E04B /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = "Carthage/Checkouts/CleanroomLogger/Libraries/CleanroomASL/build/Debug-iphoneos/CleanroomASL.framework"; sourceTree = "<group>"; };
+		043EBA931C7A74D800F1E04B /* CleanroomLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomLogger.framework; path = "Carthage/Checkouts/CleanroomLogger/build/Debug-iphoneos/CleanroomLogger.framework"; sourceTree = "<group>"; };
 		04CD3ED01C7A667A00265BB1 /* IKnowKungFu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IKnowKungFu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CD3ED31C7A667A00265BB1 /* IKnowKungFu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IKnowKungFu.h; sourceTree = "<group>"; };
 		04CD3ED51C7A667A00265BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -23,6 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043EBA941C7A74D800F1E04B /* CleanroomASL.framework in Frameworks */,
+				043EBA951C7A74D800F1E04B /* CleanroomASL.framework in Frameworks */,
+				043EBA961C7A74D800F1E04B /* CleanroomLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +41,9 @@
 		04CD3EC61C7A667A00265BB1 = {
 			isa = PBXGroup;
 			children = (
+				043EBA911C7A74D800F1E04B /* CleanroomASL.framework */,
+				043EBA921C7A74D800F1E04B /* CleanroomASL.framework */,
+				043EBA931C7A74D800F1E04B /* CleanroomLogger.framework */,
 				04CD3ED21C7A667A00265BB1 /* IKnowKungFu */,
 				04CD3ED11C7A667A00265BB1 /* Products */,
 			);
@@ -237,6 +249,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = IKnowKungFu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -255,6 +268,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = IKnowKungFu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
