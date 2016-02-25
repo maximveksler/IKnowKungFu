@@ -19,6 +19,8 @@ public class IKnowKungFuLogConfiguration: XcodeLogConfiguration {
         
         let formatter = IKnowKungFuLogFormatter(timestampStyle: .Default, severityStyle: .Xcode, delimiterStyle: nil, showCallSite: true, showCallingThread: true, colorizer: colorizer)
         
+        let formatters : [XcodeLogFormatter] = [formatter]
+        
         super.init(minimumSeverity: .Debug,
             debugMode: true,
             verboseDebugMode: false,
@@ -26,7 +28,8 @@ public class IKnowKungFuLogConfiguration: XcodeLogConfiguration {
             colorizer: colorizer,
             colorTable: nil,
             filters: [],
-            formatters: [formatter])
-
+            formatters: formatters)
     }
+    
+    
 }
