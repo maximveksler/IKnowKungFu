@@ -19,7 +19,7 @@ public class IKnowKungFuLogConfiguration: XcodeLogConfiguration {
         
         let formatter = IKnowKungFuLogFormatter(timestampStyle: .Default, severityStyle: .Xcode, delimiterStyle: nil, showCallSite: true, showCallingThread: true, colorizer: colorizer)
         
-        let formatters : [XcodeLogFormatter] = [formatter]
+        let formatters = [formatter].map({$0 as LogFormatter}) // Swift bug work around http://stackoverflow.com/a/30101004/48062
         
         super.init(minimumSeverity: .Debug,
             debugMode: true,
