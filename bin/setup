@@ -6,4 +6,6 @@ if ! command -v carthage > /dev/null; then
   exit 1
 fi
 
-carthage update --platform iOS --no-use-binaries
+# Note: DO NOT USE --submodules. Submodules are the devil. https://github.com/Carthage/Carthage/issues/1146
+# Both carthage and Xcode doesn't handle them well (or at all). Will revisit once Xcode 7.3 is released stable.
+carthage update --platform iOS --no-use-binaries --configuration Debug 
